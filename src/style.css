@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.card h4 {
+    color: white;
+    font-family: Roboto;
+    margin: 0px; 
+    margin-top: 10px;
+    text-align: center;
+}
+.card h6 {
+    color: rgba(255, 255, 255, 0.707);
+    font-family: Roboto;
+    margin: 0px; 
+    margin-top: 10px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+html {
+    background-image: url('./pizza.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+#content {
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: center;
+}
+.head{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI';
+}
+.head h1 {
+    margin: 0px;
+}
+#tabs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 0px;
+    gap: 20px;
+}
+#tabs button {
+    background-color: black;
+    font-size: 2em;
+    border: none;
+    color: white;
+    transition: color 0.3s;
+}
+.active {
+    background-color: black !important;
+    border-bottom: 2px solid white !important;
+    color: white;
+}
