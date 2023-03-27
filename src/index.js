@@ -4,7 +4,7 @@ import contact from './contact.js'
 import style from './style.css'
 let tabs = document.querySelector('#tabs')
 let content = document.querySelector('#content')
-contact()
+home()
 tabs.children[0].addEventListener('click',()=>{
     content.innerHTML=''
     home();
